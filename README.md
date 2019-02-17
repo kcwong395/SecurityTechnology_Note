@@ -11,6 +11,6 @@ This is a learning summary of the course EE4215 Security Technology
 >
 > Result: def
 ### Algorithm:
-> E<sub>n</sub>(x)=(x+n)\mod {26}.
+> E<sub>n</sub>(x)=(x+n) mod 26
 >
-> D_{n}(x)=(x-n)\mod {26}.
+> D<sub>n</sub>(x)=(x-n) mod 26
