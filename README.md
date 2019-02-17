@@ -3,10 +3,14 @@ This is a learning summary of the course EE4215 Security Technology
 
 ## Caesar Cipher
 ### Background:
-> Caesar Cipher, named after Julius Caesar, is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+> Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 ### Demostration:
 > Message: abc
 >
-Key: 3
+> Key: 3
 >
-Result: def
+> Result: def
+### Algorithm:
+> E_{n}(x)=(x+n)\mod {26}.
+>
+> D_{n}(x)=(x-n)\mod {26}.
