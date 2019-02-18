@@ -11,11 +11,19 @@ This is a learning summary of the course EE4215 Security Technology
 >   C(Ciphertext) = E<sub>k</sub>(P) where E is an encryption function
 >
 >   P(Plaintext) = D<sub>k</sub>(C) where D is an decryption function
+>
+>   Problem:
+>
+>   Need a secure channel to distribute the common key
 ## Encryption Method
+
+
+
+
 ### 1. G.C.D.
 >   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
 ### 2. Symmetric Cipher Model
-####  ⋅⋅⋅ 2.1 Caesar Cipher
+####  2.1 Caesar Cipher
 >   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 
 >   **Demostration:**
