@@ -4,7 +4,13 @@ This is a learning summary of the course EE4215 Security Technology
 ### 1. Brute-Force Attack
 >   Trying every possible key on a piece of ciphertext until an intelligible translation into plaintext is obtained.
 ### 2. Symmetric Cipher Model
->   sender and recipient share a common secret key
+>   sender and recipient share a common secret key(k)
+>   
+>   Mathematically,
+>
+>   C(Ciphertext) = E<sub>k</sub>(P) where E is an encryption method
+>
+>   P(Plaintext) = D<sub>k</sub>(C) where D is an decryption method
 ## Encryption Method
 ### 1. G.C.D.
 >   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
