@@ -22,11 +22,11 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >   Substitution refers to substituting letters of the plain text with other letters/symbol
 >  
->   ..* monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](#-2.1-Caesar-Cipher), Hill, Playfair
+>  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](#-2.1-Caesar-Cipher), Hill, Playfair
 >
->   ..* polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
+>  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
-    ..* stream means a keystream is generated for mapping
+>  - stream means a keystream is generated for mapping
 plain text to cipher text such as one-time replaced
 >
 >   Transposition refers to rearranging plain text(permutation)
@@ -38,7 +38,7 @@ plain text to cipher text such as one-time replaced
 ####  2.1 Caesar Cipher
 >   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet.
 
->   **Demostration:**
+**Demostration:**
 >
 >   Message: abc
 >
@@ -46,7 +46,7 @@ plain text to cipher text such as one-time replaced
 >
 >   Result: def
 
->   **Algorithm:**
+**Algorithm:**
 >
 >   E<sub>k</sub>(x)=(x+k) mod 26
 >
