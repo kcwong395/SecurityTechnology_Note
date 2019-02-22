@@ -6,12 +6,12 @@ This is a learning summary of the course EE4215 Security Technology
 
 ### 2. Symmetric Cipher Model
 >   sender and recipient share a common secret key(k)
->   
+>
 >   Mathematically,
 >
->   C(Cipher text) = E<sub>k</sub>(P) where E is an encryption function
+>   C (Cipher text) = E<sub>k</sub>(P) where E is an encryption function
 >
->   P(Plain text) = D<sub>k</sub>(C) where D is an decryption function
+>   P (Plain text) = D<sub>k</sub>(C) where D is an decryption function
 >
 >   Problem:
 >
@@ -21,7 +21,7 @@ This is a learning summary of the course EE4215 Security Technology
 >   The conversion from plain text to cipher text involve two methods, Substitution and Transposition
 >
 >   3.1 Substitution refers to substituting letters of the plain text with other letters/symbol
->  
+>
 >  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](#-2.1-Caesar-Cipher), Hill, Playfair
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma

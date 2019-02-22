@@ -1,7 +1,7 @@
 # This function intends to decrypt plaintext with a known key
 
-plainText = input("Please enter the ciphertext to be decoded: \n")
-key = input("Please enter the key for decryption: \n")
+plainText = input("Cipher text: \n")
+key = input("Key: \n")
 
 
 def CaesareEncrypt(plainText):
@@ -15,6 +15,6 @@ def CaesareEncrypt(plainText):
     return cipher
 
 
-print("The following is the decrypted message: ")
+print("Plain text: ")
 print(CaesareEncrypt(plainText))
 a = input()
