@@ -4,8 +4,11 @@ This is a learning summary of the course EE4215 Security Technology
 ### 1. Brute-Force Attack
 >   Trying every possible key on a piece of cipher text until an intelligible translation into plain text is obtained.
 
-### 2. Symmetric Cipher Model
->   sender and recipient share a common secret key(k)
+### 2. Cryptanalysis
+>   An attempt to deduce a specific plaintext or the key being used by studying the **nature** of the algorithm and some common **characteristics** of the plaintext
+
+### 3. Symmetric Cipher Model
+>   Sender and recipient share a common secret key(k)
 >
 >   Mathematically,
 >
@@ -17,12 +20,12 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >   Need a secure channel to distribute the common key
 
-### 3. Classical Ciphers
+### 4. Classical Ciphers
 >   The conversion from plain text to cipher text involve two methods, Substitution and Transposition
 >
 >   3.1 Substitution refers to substituting letters of the plain text with other letters/symbol
 >
->  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](#-2.1-Caesar-Cipher), Hill, Playfair
+>  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](Classical-Cipher/CaesarCipher/README.md), Hill, Playfair
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
@@ -30,24 +33,3 @@ This is a learning summary of the course EE4215 Security Technology
 plain text to cipher text such as one-time replaced
 >
 >   3.2 Transposition refers to rearranging plain text(permutation)
-## Encryption Method
-### 1. G.C.D.
->   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
-
-### 2. Symmetric Cipher Model
-####  2.1 Caesar Cipher
->   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet.
-
-**Demostration:**
->
->   Message: abc
->
->   Key: 3
->
->   Result: def
-
-**Algorithm:**
->
->   E<sub>k</sub>(x)=(x+k) mod 26
->
->   D<sub>k</sub>(x)=(x-k) mod 26
