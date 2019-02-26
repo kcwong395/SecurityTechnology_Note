@@ -1,6 +1,6 @@
 # This function intends to decrypt Caesar ciphertext by brute forcing all possible key
 
-cipherText = input("Cipher text: \n")
+cipherText = input("Cipher text: ")
 
 
 def BruteForceAttack(cipherText):

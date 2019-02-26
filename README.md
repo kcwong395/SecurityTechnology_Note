@@ -26,8 +26,8 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
->  - stream means a keystream is generated for mapping
-plain text to cipher text such as one-time replaced
+>  - stream means a keystream is generated for mapping plain text to cipher text such as one-time replaced
+>
 >
 >   3.2 Transposition refers to rearranging plain text(permutation)
 ## Encryption Method
@@ -35,19 +35,3 @@ plain text to cipher text such as one-time replaced
 >   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
 
 ### 2. Symmetric Cipher Model
-####  2.1 Caesar Cipher
->   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet.
-
-**Demostration:**
->
->   Message: abc
->
->   Key: 3
->
->   Result: def
-
-**Algorithm:**
->
->   E<sub>k</sub>(x)=(x+k) mod 26
->
->   D<sub>k</sub>(x)=(x-k) mod 26
