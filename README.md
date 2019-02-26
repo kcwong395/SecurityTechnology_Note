@@ -29,7 +29,15 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
->  - stream means a keystream is generated for mapping
-plain text to cipher text such as one-time replaced
+>  - stream means a keystream is generated for mapping plain text to cipher text such as one-time replaced
+>
 >
 >   3.2 Transposition refers to rearranging plain text(permutation)
+<<<<<<< HEAD
+=======
+## Encryption Method
+### 1. G.C.D.
+>   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
+
+### 2. Symmetric Cipher Model
+>>>>>>> bd306ea1936ddc264ebf101be3b813e40bfdd63d

@@ -3,11 +3,11 @@
 
 **Demostration:**
 >
->   Message: abc
+>   Message: I came, I saw, I conquered
 >
->   Key: 3
+>   Key: 34
 >
->   Result: def
+>   Result: Q kium, Q aie, Q kwvycmzml
 
 **Algorithm:**
 >

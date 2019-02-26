@@ -1,7 +1,7 @@
 # This function intends to encrypt plaintext using Caesar Cipher
 
-plainText = input("Plain text: \n")
-key = input("Key: \n")
+plainText = input("Plain text: ")
+key = input("Key: ")
 
 
 def CaesareEncrypt(plainText):
