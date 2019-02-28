@@ -4,7 +4,7 @@ plainText = input("Plain text: ")
 key = input("Key: ")
 
 
-def CaesareEncrypt(plainText):
+def CaesareEncrypt(plainText, key):
     cipher = ""
     for letter in plainText:
         if 'a' <= letter <= 'z':
@@ -16,5 +16,5 @@ def CaesareEncrypt(plainText):
 
 
 print("Plain text: ")
-print(CaesareEncrypt(plainText))
+print(CaesareEncrypt(plainText, key))
 a = input()

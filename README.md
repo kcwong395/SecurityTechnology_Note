@@ -1,14 +1,16 @@
 # SecurityTechnology_Note
-This is a learning summary of the course EE4215 Security Technology
+This is a learning summary of the course EE4215 Security Technology, in City University of Hong Kong ~~and also a practice for markdown syntax~~.
 ## Terminology Explanation
 ### 1. Brute-Force Attack
 >   Trying every possible key on a piece of cipher text until an intelligible translation into plain text is obtained.
+>
+>   See example on [Casear Cipher](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/caesar_cipher_BruteForce.py) brute-force attempt
 
 ### 2. Cryptanalysis
->   An attempt to deduce a specific plaintext or the key being used by studying the **nature** of the algorithm and some common **characteristics** of the plaintext
+>   An attempt to deduce a specific plaintext or the key being used by studying the **nature** of the algorithm and some common **characteristics** of the plaintext. For example, English Letter Frequencies
 
 ### 3. Symmetric Cipher Model
->   Sender and recipient share a common secret key(k)
+>   Sender and recipient share a **common** secret key(K)
 >
 >   Mathematically,
 >
@@ -25,7 +27,7 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >   3.1 Substitution refers to substituting letters of the plain text with other letters/symbol
 >
->  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [Caesar](Classical-Cipher/CaesarCipher/README.md), Hill, Playfair
+>  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/README.md), Hill, Playfair
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
@@ -33,11 +35,3 @@ This is a learning summary of the course EE4215 Security Technology
 >
 >
 >   3.2 Transposition refers to rearranging plain text(permutation)
-<<<<<<< HEAD
-=======
-## Encryption Method
-### 1. G.C.D.
->   G.C.D. stands for the Greatest Common Divisor. gcd(a, b) is the greatest number which divides a and b. This is important for us to look into as it is helpful in some encryption methods such as RSA.
-
-### 2. Symmetric Cipher Model
->>>>>>> bd306ea1936ddc264ebf101be3b813e40bfdd63d
