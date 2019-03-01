@@ -2,7 +2,7 @@
 This is a learning summary of the course EE4215 Security Technology, in City University of Hong Kong ~~and also a practice for markdown syntax~~.
 ## Terminology Explanation
 ### 1. Brute-Force Attack
->   Trying every possible key on a piece of cipher text until an intelligible translation into plain text is obtained.
+>   Trying every possible key on a piece of ciphertext until an intelligible translation into plaintext is obtained.
 >
 >   See example on [Casear Cipher](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/caesar_cipher_BruteForce.py) brute-force attempt
 
@@ -14,24 +14,25 @@ This is a learning summary of the course EE4215 Security Technology, in City Uni
 >
 >   Mathematically,
 >
->   C (Cipher text) = E<sub>k</sub>(P) where E is an encryption function
+>   C (Ciphertext) = E<sub>k</sub>(P) where E is an encryption function
 >
->   P (Plain text) = D<sub>k</sub>(C) where D is an decryption function
+>   P (Plaintext) = D<sub>k</sub>(C) where D is an decryption function
 >
 >   Problem:
 >
->   Need a secure channel to distribute the common key
+>   Need a **secure channel** to distribute the common key otherwise the key might be exposed under the risk of interception.
 
 ### 4. Classical Ciphers
->   The conversion from plain text to cipher text involve two methods, Substitution and Transposition
+>   The conversion from plaintext to ciphertext involve two methods, Substitution and Transposition
 >
->   3.1 Substitution refers to substituting letters of the plain text with other letters/symbol
+>   4.1 Substitution refers to substituting letters of the plaintext with other letters/symbol
 >
 >  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/README.md), Hill, Playfair
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
->  - stream means a keystream is generated for mapping plain text to cipher text such as one-time replaced
+>  - stream means a keystream is generated for mapping plaintext to ciphertext such as one-time replaced
 >
 >
->   3.2 Transposition refers to rearranging plain text(permutation)
+>   4.2 Transposition refers to rearranging plaintext(permutation)
+>

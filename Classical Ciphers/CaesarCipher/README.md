@@ -1,5 +1,5 @@
 ###  Caesar Cipher
->   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet.
+>   Caesar Cipher, named after Julius Caesar, is a type of **substitution** cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 
 **Demostration:**
 >

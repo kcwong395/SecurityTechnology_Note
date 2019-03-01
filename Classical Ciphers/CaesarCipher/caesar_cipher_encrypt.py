@@ -1,10 +1,9 @@
 # This function intends to encrypt plaintext using Caesar Cipher
 
-plainText = input("Plain text: ")
-key = input("Key: ")
 
-
-def CaesareEncrypt(plainText, key):
+def CaesareEncrypt():
+    plainText = input("Plaintext: ")
+    key = input("Key: ")
     cipher = ""
     for letter in plainText:
         if 'a' <= letter <= 'z':
@@ -15,6 +14,5 @@ def CaesareEncrypt(plainText, key):
     return cipher
 
 
-print("Plain text: ")
-print(CaesareEncrypt(plainText, key))
+print("Ciphertext: " + CaesareEncrypt())
 a = input()
