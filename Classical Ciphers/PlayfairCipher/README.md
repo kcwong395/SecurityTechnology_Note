@@ -3,7 +3,7 @@
 
 **Demostration:**
 >
->   Message: I came, I saw, I conquered
+>   Message: Hey! Meet me after the lecture.
 >
 >   Key: playfair
 
@@ -22,7 +22,7 @@
 >
 >   **I and J share the same box so the number of letters is limited to 25**
 >
->   Fill in the table with the remaining letter in alphabetical order
+>   Fill in the table with the remaining letters in alphabetical order
 >
 >   | P | L | A | Y | F |
 >   |---|---|---|---|---|
@@ -30,7 +30,33 @@
 >   | **E** | **G** | **H** | **K** | **M** |
 >   | **N** | **O** | **Q** | **S** | **T** |
 >   | **U** | **V** | **W** | **X** | **Z** |
+
+>   Plaintext Config
 >
+>   Before we start to encrypt the plaintext, there are a few rules we need to follow:
 >
+>   1. Replace J with I
 >
->   Result: Q kium, Q aie, Q kwvycmzml
+>   2. Separate the plaintext in pairs, ignore the non-alphabetic character
+>
+>   He yM ee tm ea ft er th el ec tu re
+>
+>   3. Add a X in between a pair if both characters are the same
+>
+>   He yM eX et me af te rt he le ct ur e
+>
+>   4. Add a X at the end of the plaintext if the last element is not yet paired up (odd)
+>
+>   He yM eX et me af te rt he le ct ur eX
+
+>   Start Encryption
+>
+>   Look for the location of each pair in the table
+>
+>   - if they are in the same row, right shift the pairs, eg, He -> KG
+>
+>   - if they are in the same column, downward shift the pairs, eg, PI -> IE (just an example, this is not in this plaintext)
+>
+>   - if they are neither in the same row nor in the same column, the cipher will be the two characters which can form a rectangle with that pair, eg, eX -> KU
+
+>   Result: KGFKKUMNEGYPNMDOKGPGDSVIKU

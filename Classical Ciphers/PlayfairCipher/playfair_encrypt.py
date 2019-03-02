@@ -9,18 +9,21 @@ def PlayfairEncrypt():
     # table config
     table = []
     key = key.replace('J', 'I')
+    key = key.upper()
     for character in key:
         if character not in table:
             table.append(character)
     for i in range(26):
-        if chr(i + ord('A')) not in table:
+        if chr(i + ord('A')) not in table and chr(i + ord('A')) != 'J':
             table.append(chr(i + ord('A')))
     # end of table config
 
     # plaintext config
     pair = 0
-    plainText = plainText.lower()
-    plainText = plainText.replace(" ", "")
+    for letter in plainText:
+        if not letter.isalpha():
+            plainText = plainText.replace(letter, "")
+    plainText = plainText.upper()
     plainText = plainText.replace('J', 'I')
     while pair != len(plainText) // 2:
         if plainText[2 * pair] == plainText[2 * pair + 1]:
