@@ -31,12 +31,18 @@ This is a learning summary of the course EE4215 Security Technology, in City Uni
 >
 >   4.1 Substitution refers to substituting letters of the plaintext with other letters/symbol
 >
->  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/README.md), Hill, [**Playfair**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/PlayFairCipher/README.md)
+>  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher), Hill, [**Playfair**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/PlayfairCipher)
 >
 >  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
 >
 >  - stream means a keystream is generated for mapping plaintext to ciphertext such as one-time replaced
 >
 >
->   4.2 Transposition refers to rearranging plaintext(permutation)
+>   4.2 Transposition refers to rearranging plaintext (permutation)
+>
+>   Rail Fence Ciphers
+>
+>   
+
+### 5. Modern Encryption
 >

@@ -2,9 +2,9 @@
 
 
 def gcd(a, b):
-    if (b == 0):
-        return a
     temp = a
     a = b
     b = temp % b
+    if (b == 0):
+        return a
     return gcd(a, b)

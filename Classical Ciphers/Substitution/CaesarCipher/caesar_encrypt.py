@@ -12,7 +12,3 @@ def CaesareEncrypt():
             letter = chr((ord(letter) + int(key) - ord('A')) % 26 + ord('A'))
         cipher += letter
     return cipher
-
-
-print("Ciphertext: " + CaesareEncrypt())
-a = input()

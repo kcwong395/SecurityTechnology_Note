@@ -49,7 +49,3 @@ def PlayfairEncrypt():
         cpair += 1
     # end of encryption
     return cipher
-
-
-print("Ciphertext: " + PlayfairEncrypt())
-a = input()
