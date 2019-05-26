@@ -16,5 +16,5 @@ def RailFence_Encrypt():
         i += 1
     return cipher
 
-print("Ciphertext: " + RailFence_Encrypt())
-a = input()
+while True:
+    print("Ciphertext: " + RailFence_Encrypt() + '\n')

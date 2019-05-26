@@ -1,9 +1,7 @@
 # This function intends to decrypt Caesar ciphertext by brute forcing all possible key
 
-cipherText = input("Cipher text: ")
 
-
-def BruteForceAttack(cipherText):
+def CaesarBFA(cipherText):
     for key in range(26):
         for letter in cipherText:
             remain = ord(letter)
@@ -19,6 +17,8 @@ def BruteForceAttack(cipherText):
         print()
 
 
-print("\nPossible plain texts:")
-BruteForceAttack(cipherText)
-a = input()
+while True:
+    cipherText = input("Cipher text: ")
+    print("\nPossible plain texts:")
+    CaesarBFA(cipherText)
+    print('\n')
