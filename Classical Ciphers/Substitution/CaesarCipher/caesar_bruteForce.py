@@ -3,17 +3,13 @@
 
 def CaesarBFA(cipherText):
     for key in range(26):
+        print(str(key) + ": ", end='')
         for letter in cipherText:
-            remain = ord(letter)
             if 'a' <= letter <= 'z':
-                remain -= key
-                if remain < ord('a'):
-                    remain += 26
+                letter = chr((ord(letter) - ord('a') - int(key)) % 26 + ord('a'))
             elif 'A' <= letter <= 'Z':
-                remain -= key
-                if remain < ord('A'):
-                    remain += 26
-            print(chr(remain), end='')
+                letter = chr((ord(letter) - ord('A') - int(key)) % 26 + ord('A'))
+            print(letter, end='') # end='' let the output stay at the same line
         print()
 
 

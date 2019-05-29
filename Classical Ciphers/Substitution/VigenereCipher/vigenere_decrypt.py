@@ -15,7 +15,7 @@ def VigenereDecrypt():
         elif 'A' <= letter <= 'Z':
             if i >= len(key):
                 i = 0
-            letter = chr((ord(letter) - ord(key[i])) % 26 + ord('A'))
+            letter = chr((ord(letter) - ord(key[i].upper())) % 26 + ord('A'))
             i += 1
         plain += letter
     return plain
