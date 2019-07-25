@@ -1,6 +1,6 @@
 # all parameters must be passed as str and return as str
 
-from inverse import inverseMod
+from inverse import modinv
 
 
 def rsa(mode, plainText, cipherText, p, q, n, phi_n, e, d):
@@ -44,9 +44,9 @@ def rsa(mode, plainText, cipherText, p, q, n, phi_n, e, d):
         if phi_n == '':
             phi_n = rsa('phi_n', plainText, cipherText, p, q, n, phi_n, e, d)
         if e != '' and phi_n != '':
-            return str(inverseMod(int(e), int(phi_n)))
+            return str(modinv(int(e), int(phi_n)))
         if d != '' and phi_n != '':
-            return str(inverseMod(int(d), int(phi_n)))
+            return str(modinv(int(d), int(phi_n)))
         return ''
     print('mode unrecognized')
 

@@ -22,7 +22,7 @@ Since it is just a short note and I intend not to make it so long, so some of th
 ### 1. Brute-Force Attack
 >   Trying every possible key on a piece of ciphertext until an intelligible translation into plaintext is obtained.
 >
->   See example on [Casear Cipher](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher/caesar_bruteForce.py) brute-force attempt
+>   See example on [Casear Cipher](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/Substitution/CaesarCipher/caesar_bruteForce.py) brute-force attempt
 
 ### 2. Cryptanalysis
 >   Known as code-breaking, which is an attempt to deduce a specific plaintext or the key being used by studying the **nature** of the algorithm and some common **characteristics** of the plaintext.
@@ -50,16 +50,16 @@ Since it is just a short note and I intend not to make it so long, so some of th
 >
 >   4.1 Substitution refers to substituting letters of the plaintext with other letters/symbol
 >
->  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/blob/master/Classical%20Ciphers/CaesarCipher), Hill, [**Playfair**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/PlayfairCipher)
+>  - monoalphabetic is the unique mapping of plaintext alphabet to ciphertext alphabet such as [**Caesar Cipher**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/Substitution/CaesarCipher), Hill, [**Playfair**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/Substitution/PlayfairCipher)
 >
->  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as Vigenere, enigma
+>  - polyalphabetic means plaintext mapped to ciphertext based on key to select alphabet such as [**Vigenere**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/Substitution/VigenereCipher), enigma
 >
 >  - stream means a keystream is generated for mapping plaintext to ciphertext such as one-time replaced
 >
 >
 >   4.2 Transposition refers to rearranging plaintext (permutation)
 >
->   Rail Fence Ciphers
+>   [**Rail Fence Ciphers**](https://github.com/kcwong395/SecurityTechnology_Note/tree/master/Classical%20Ciphers/Transposition/RailFenceCipher)
 >
 >
 
